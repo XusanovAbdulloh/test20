@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: harakat;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes harakat {
+    0% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+
+    25% {
+        transform: translate(400px, 0);
+        -webkit-transform: translate(400px, 0);
+        -moz-transform: translate(400px, 0);
+        -ms-transform: translate(400px, 0);
+        -o-transform: translate(400px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 400px);
+        -webkit-transform: translate(200px, 400px);
+        -moz-transform: translate(200px, 400px);
+        -ms-transform: translate(200px, 400px);
+        -o-transform: translate(200px, 400px);
+    }
+
+    75% {
+        transform: translate(0, 400px);
+        -webkit-transform: translate(0, 400px);
+        -moz-transform: translate(0, 400px);
+        -ms-transform: translate(0, 400px);
+        -o-transform: translate(0, 400px);
+    }
+
+    100% {
+        transform: translate(0);
+        -webkit-transform: translate(0);
+        -moz-transform: translate(0);
+        -ms-transform: translate(0);
+        -o-transform: translate(0);
+    }
+}
